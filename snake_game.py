@@ -25,7 +25,7 @@ import pygame
 DISPLAY_WIDTH  = 800
 DISPLAY_HEIGHT = 600
 SNAKE_BLOCK    = 20
-BASE_SPEED     = 10       # frames per second at score 0
+BASE_SPEED     = 12       # frames per second at score 0
 DEADZONE       = 60       # pixel radius around cam centre to ignore
 CAM_FEED_SIZE  = (240, 180)  # (width, height) of embedded camera preview
 
