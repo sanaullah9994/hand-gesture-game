@@ -65,3 +65,8 @@ python src/gesture_recognition.py
 - The deadzone in the middle prevents accidental direction changes
 - Model uses SVM with RBF kernel trained on 63 landmark features per frame
 
+
+## Known Issues
+
+- Sometimes the gesture detection is slow if lighting is bad
+- Snake speed might feel too fast on higher scores
