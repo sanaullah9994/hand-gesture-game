@@ -42,7 +42,7 @@ mp_hands = mp.solutions.hands
 # ──────────────────────────────────────────────
 palm_smoother     = Smoother(alpha=0.6)
 rot_smoother      = Smoother(alpha=0.6)
-openness_smoother = Smoother(alpha=0.4)
+openness_smoother = Smoother(alpha=0.35)
 
 
 def compute_palm_rotation(landmarks: list) -> float:
