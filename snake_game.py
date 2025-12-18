@@ -291,7 +291,7 @@ def run_game():
             food_x, food_y = random_food_pos()
             snake_length += 1
 
-        # Speed scales with score
+        # speed goes up every 5 points - gets pretty hard lol
         clock.tick(BASE_SPEED + (snake_length // 5))
         tick += 1
 
